@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Azeret Mono", monospace;
+  }
+  /* body{
+    background-color: antiquewhite;
+  } */
+  /* Header */
+.header{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 5px solid black;
+  }
+.innerhead{
+    margin: 0;
+    padding: 0;
+    width: 80%;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav .logo{
+    margin-left: 50px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    width: max-content; 
+
+}
+nav ul li{
+    margin-right: 25%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+/* Hero Section 1 */
+.section1{
+  padding: 5% 10% 5% 10%;
+  border-bottom: 5px solid black; 
+}
+.subcontainer{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.left-cont{
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+    h1{
+        justify-content: end;
+    }
+    h2{
+        margin-top: 10px;
+        justify-content: end;
+    }
+    .button{
+        margin-top: 10px;
+    }
+    .button .b1,.b2{
+        padding: 10px 5px 10px 5px;
+    }
+.right-img{
+    margin: 0;
+    padding: 0;
+    width: 50%;
+
+}
+.right-img img{
+    width: 500px;
+    height: 200px;
+}
