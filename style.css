@@ -82,3 +82,50 @@ nav ul li a{
     width: 500px;
     height: 200px;
 }
+
+
+/* Section 2 */
+
+.section_2{
+    padding: 5% 10% 5% 10%;
+    border-bottom: 5px solid black; 
+  }
+  .container_2{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .subcontainer_2{
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: row-reverse; 
+  }
+  .Right-cont_2{
+      margin: 0;
+      padding: 0;
+      width: 50%;
+  }
+      h1{
+          justify-content: end;
+      }
+      h2{
+          margin-top: 10px;
+          justify-content: end;
+      }
+      .button{
+          margin-top: 10px;
+      }
+      .button_2 .b1_2,.b2_2{
+          padding: 10px 5px 10px 5px;
+      }
+  .left-img_2{
+      margin: 0;
+      padding: 0;
+      width: 50%;
+  
+  }
+  .left-img_2 img{
+      width: 500px;
+      height: 200px;
+  }
+  
